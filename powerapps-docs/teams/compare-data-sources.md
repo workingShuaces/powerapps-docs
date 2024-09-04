@@ -39,7 +39,7 @@ Using the answers to the questions above, use the table below to help identify t
 | Data movement  |Create from/Export to Excel  |Dataflows In  |Dataflows In/Out<br/>Server-side sync<br/>Synapse Integration (Bring Your Own Data Lake, Data Factory)  |
 |Security  |Owners, Members, Visitors, Designers, Approvers roles Customizable permissions  |Owner, Member, Guest roles<br/><br/> Share app with Azure AD group  |Robust options to satisfy complex enterprise scenario requirements, such as roles, business units, auditing, CMK, hierarchical/field-Level security, and so on  |
 |Clients  |Lists, Teams<sup>1</sup>, custom code   |Teams  |Teams, Power Apps, Power Pages, Dynamics 365, custom code |
-|Guest limitations  |Can't create or delete a list  |Can't make, install, or edit apps  |Must be in Azure AD using Azure B2B  |
+|Guest limitations  |Can't create or delete a list  |Can't make, install, or edit apps  |Must be in Microsoft Entra using Azure B2B  |
 |Pro developer capability  |REST API<br/>Graph API  | N/A  |REST API<br/>Software Development Kit (SDK)<br/> Plug-in Support <br/>Integration (Event Hub, Service Bus, Webhook, Export to Lake) SQL Server Management Studio Integration  |
 |Package and deploy  |Package and deploy Lists  |Single unmanaged solution per environment  |Unlimited  |
 |Additional capabilities  |Calculations and rollups  | N/A  |Business workflows<br/>Business rules<br/>Calculations and rollups<br/>Mobile offline  |
